@@ -113,7 +113,7 @@ const FormOne = ({submitBtnText = "Get Free Quote"}) => {
               ))}
             </select>
         </div>
-        <div className="form-group mb--40">
+        <div className="form-group">
             <label>No. of pages</label>
             <select type="tel" className="form-control" name="pages" required >
               <option selected>Select Page No</option>
@@ -122,7 +122,7 @@ const FormOne = ({submitBtnText = "Get Free Quote"}) => {
               ))}
             </select>
         </div>
-        <div className="form-group mb--40">
+        <div className="form-group">
             <label>Academic level</label>
             <select type="tel" className="form-control" name="academic" required >
             <option selected>Please Select</option>
@@ -131,7 +131,7 @@ const FormOne = ({submitBtnText = "Get Free Quote"}) => {
               ))}
             </select>
         </div>
-        <div className="form-group mb--40">
+        <div className="form-group">
             <label>Deadline</label>
             <select type="deadline" className="form-control" name="contact-phone" required >
             <option selected>Please Select</option>

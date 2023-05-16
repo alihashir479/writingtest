@@ -5,6 +5,7 @@ import FormOne from '../contact/FormOne';
 import { AiFillStar } from "react-icons/ai";
 import ModalOne from '../modals/ModalOne';
 import { useState } from 'react';
+import './BannerOne.css'
 
 
 const BannerOne = () => {
@@ -18,14 +19,20 @@ const BannerOne = () => {
         <div className="banner banner-style-1">
             <div className="container">
                 <div className="row align-items-end align-items-xl-start">
-                    <div className='col-lg-12 justify-content-center align-items-center mb--20' style={{display: 'flex'}}>
-                   {[...new Array(5)].map((item, idx) => (<AiFillStar key={idx} style={{color: 'yellow'}} />))}
+                <div className='col-lg-12 justify-content-center align-items-center mb--20 star-title' style={{display: 'flex'}}>
+                  <div> {[...new Array(5)].map((item, idx) => (<AiFillStar key={idx} style={{color: 'yellow'}} />))} </div>
                    <div className='ml--5'> - Awarded as #1 in Academic Writing Service </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <AnimationOnScroll animateIn="fadeInUp" animateOnce={true} delay={100}>
                                 <h1 className="title">Essay Writing In Dubai Providing Top-Class Essays Online Written By Professional Writers</h1>
+                                <div className='order-form-mobile'>
+                                <div className='contact-form-box shadow-box py--20 px--50'>
+                                  <h3 className='mb--10'>Place order</h3>
+                                    <FormOne submitBtnText='Proceed Now'/>
+                                </div>
+                                </div>
                                 <span className="subtitle">Looking for essay help? You are at the right place! We provide plagiarism free and professionally written essays in Dubai. Order now or chat with our expert writers for details.</span>
                                 <button className="axil-btn btn-fill-primary btn-large" onClick={() => {setModalShow(true)}}>Get Samples</button>
                             </AnimationOnScroll>
@@ -34,8 +41,8 @@ const BannerOne = () => {
                     <div className="col-lg-6">
                         <div className="banner-thumbnail">
                             <AnimationOnScroll animateIn="zoomIn" duration={2} delay={300} animateOnce={true}>
-                                <div className='contact-form-box shadow-box'>
-                                  <h3>Get a Quote</h3>
+                                <div className='contact-form-box shadow-box py--20 px--50 order-form-desktop'>
+                                  <h3 className='mb--10'>Place order</h3>
                                  <FormOne submitBtnText='Proceed Now'/>
                                 </div>
                             </AnimationOnScroll>

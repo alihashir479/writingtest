@@ -16,6 +16,10 @@ const FormThree = () => {
 
     const [ result, showresult ] = useState(false);
 
+    const handleNumberChange = (e) => {
+        
+    }
+
     const sendEmail = (e) => {
         e.preventDefault();
     
@@ -38,15 +42,15 @@ const FormThree = () => {
         <form ref={form} onSubmit={sendEmail} className="axil-contact-form">
         <div className="form-group">
             <label>Name</label>
-            <input type="text" className="form-control" name="contact-name" placeholder="John Smith" required />
+            <input type="text" className="form-control" name="contact-name" placeholder="Salem" required />
         </div>
         <div className="form-group">
             <label>Email</label>
-            <input type="email" className="form-control" name="contact-email" placeholder="example@mail.com" required />
+            <input type="email" className="form-control" name="contact-email" placeholder="Salem@gulfwrites.ae" required />
         </div>
         <div className="form-group">
             <label>Whatsapp</label>
-            <input type="text" className="form-control" name="contact-whatsapp" placeholder="+45311-24904434" required />
+            <input type="number" onChange={handleNumberChange} className="form-control" name="contact-whatsapp" placeholder="+971 55 102 1580" required />
         </div>
         <div className="form-group text-end">
             <button type="submit" className="axil-btn btn-fill-primary w-auto btn-primary" name="submit-btn">SEND</button>

@@ -1,0 +1,23 @@
+.star-title {
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.order-form-mobile {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.order-form-desktop {
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.banner .banner-content .subtitle {
+    @media screen and (max-width: 768px) {
+        margin-top: 50px;
+    }
+}
