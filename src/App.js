@@ -18,7 +18,7 @@ import BlogArchive from './pages/Archive';
 import BlogDetails from './pages/BlogDetails';
 
 // Service 
-import ServiceOne from './pages/ServiceOne';
+import Service from './pages/Service/service';
 import ServiceTwo from './pages/ServiceTwo';
 import ServiceDetails from './pages/ServiceDetails';
 
@@ -72,7 +72,7 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/blog-details/:id"} element={<BlogDetails />}/>
 
 				{/* Service */}
-				<Route path={process.env.PUBLIC_URL + "/service-one/"} element={<ServiceOne />}/>
+				<Route path={process.env.PUBLIC_URL + "/service/"} element={<Service />}/>
 				<Route path={process.env.PUBLIC_URL + "/service-two/"} element={<ServiceTwo />}/>
 				<Route path={process.env.PUBLIC_URL + "/service-details/:slug"} element={<ServiceDetails />}/>
 

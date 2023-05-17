@@ -1,12 +1,14 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
-import SectionTitle from '../../elements/section-title/SectionTitle';
-import FaqData from '../../data/faq/FaqData.json';
+import { useState, useEffect } from 'react';
 
-const allData = FaqData;
+const FaqOne = ({data}) => {
+    const [allData, setAllData] = useState([]);
 
-
-const FaqOne = () => {
+    useEffect(() => {
+        setAllData(prev => data)
+    }, [])
+    
     return (
         <div className="section section-padding-equal bg-color-light faq-area">
             <div className="container">
