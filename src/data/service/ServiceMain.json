@@ -1,6 +1,6 @@
 [
     {
-        "image": "/images/icon/icon-1.png",
+        "image": "/images/icon/satisfaction.png",
         "title": "Satisfaction",
         "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
         "process": {
@@ -37,7 +37,7 @@
         }
     },
     {
-        "image": "/images/icon/icon-2.png",
+        "image": "/images/icon/confidentialy.png",
         "title": "Confidentiality",
         "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
         "process": {
@@ -74,7 +74,7 @@
         }
     },
     {
-        "image": "/images/icon/icon-3.png",
+        "image": "/images/icon/money.png",
         "title": "Affordable Services",
         "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
         "process": {
