@@ -31,7 +31,7 @@ const FooterOne = ({parentClass}) => {
                             <div className="footer-widget border-end">
                                 <div className="footer-newsletter">
                                     <h2 className="title">Get in touch!</h2>
-                                    <p>Fusce varius, dolor tempor interdum tristique, dui urna bib endum magna, ut ullamcorper purus</p>
+                                    <p>We would love to hear from you and provide assistance with your queries. Feel free to contact us by filling in the details below.</p>
                                     <form>
                                         <div className="input-group">
                                             <span className="mail-icon"><FaEnvelopeOpen /> </span>

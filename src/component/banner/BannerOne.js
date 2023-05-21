@@ -26,14 +26,14 @@ const BannerOne = () => {
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <AnimationOnScroll animateIn="fadeInUp" animateOnce={true} delay={100}>
-                                <h1 className="title">Essay Writing In Dubai Providing Top-Class Essays Online Written By Professional Writers</h1>
+                                <h1 className="title">Professional Writers | Essay Writing Services in Dubai</h1>
                                 <div className='order-form-mobile'>
                                 <div className='contact-form-box shadow-box py--20 px--50'>
                                   <h3 className='mb--10'>Place order</h3>
                                     <FormOne submitBtnText='Proceed Now'/>
                                 </div>
                                 </div>
-                                <span className="subtitle">Looking for essay help? You are at the right place! We provide plagiarism free and professionally written essays in Dubai. Order now or chat with our expert writers for details.</span>
+                                <span className="subtitle">Place your order today or chat with our experienced writers to learn more about how we can assist you in achieving your academic goals.</span>
                                 <button className="axil-btn btn-fill-primary btn-large" onClick={() => {setModalShow(true)}}>Get Samples</button>
                             </AnimationOnScroll>
                         </div>

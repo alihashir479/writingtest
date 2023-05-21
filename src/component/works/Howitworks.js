@@ -3,23 +3,23 @@ const Howitworks = () => {
     const cards = [
         {
             number: '1',
-            title: 'Order us for your work',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+            title: 'Effortless Ordering',
+            content: 'GulfWrites ensure a seamless essay writing service. Place your order by providing the necessary details about your requirements and experience a prompt submission of your essay.'
         },
         {
             number: '2',
-            title: 'Order us for your work',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+            title: 'Experts At Your Service',
+            content: 'Our qualified professionals have the experience and knowledge to bring your ideas to life. Collaborate with your chosen writer to discuss your essay topic, provide insights, and clarify any specific instructions. '
         },
         {
             number: '3',
-            title: 'Order us for your work',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+            title: 'Unlock Academic Excellence',
+            content: 'Allow the magic to happen as your chosen writer conducts comprehensive research to create an engaging and insightful essay that highlights knowledge and ideas.'
         },
         {
             number: '4',
-            title: 'Order us for your work',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+            title: 'Timely Submission',
+            content: 'Our streamlined process ensures a seamless and trouble-free experience from beginning to end. Experience peace of mind with the reliable essay writing service, allowing you to confidently achieve your academic deadlines.'
         },
     ]
     const numberStyles = {background: 'linear-gradient(90deg, #5050fd 0%, rgb(32 32 246 / 70%) 70.31%)', marginBottom: '0'}

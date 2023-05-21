@@ -11,9 +11,9 @@ const AboutOne = () => {
                         <div className="about-us">
                             <div className="section-heading heading-left mb-0">
                                 <span className="subtitle">About Us</span>
-                                <h2 className="title mb--40">We do design, code &amp; develop.</h2>
-                                <p>Nulla et velit gravida, facilisis quam a, molestie ante. Mauris placerat suscipit dui, eget maximus tellus blandit a. Praesent non tellus sed ligula commodo blandit in et mauris. Quisque efficitur ipsum ut dolor molestie pellentesque. </p>
-                                <p>Nulla pharetra hendrerit mi quis dapibus. Quisque luctus, tortor a venenatis fermentum, est lacus feugiat nisl, id pharetra odio enim eget libero. </p>
+                                <h2 className="title mb--40">Your Trusted Partner For Academic Success</h2>
+                                <p>With over 5 years of industry expertise, we have established ourselves as a reliable resource for students looking for high-quality essay writing services. We take pleasure in our meticulous attention to detail, extensive research, and dedication to fulfilling deadlines. What distinguishes us is our continuous commitment to customer satisfaction</p>
+                                <p>We endeavor to exceed your expectations by creating high-quality work that highlights expertise and represents your distinct voice. Discover the expertise, dependability, and professionalism that have made us the go-to choice for essay writing services in Dubai and beyond.</p>
                             </div>
                         </div>
                     </div>
