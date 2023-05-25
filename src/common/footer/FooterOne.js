@@ -12,16 +12,23 @@ const FooterOne = ({parentClass}) => {
         <footer className={`footer-area ${parentClass}`}>
             <div className="container">
                 <div className="footer-top">
+                <div className="footer-social-link" style={{marginBottom:'20px'}}>
+                <h4 class="" style={{textAlign:'center'}}>Easy and Secured Payment Options</h4>
+                        <ul className="list-unstyled">
+                            <img src='/images/banks/dubai_islamic_bank.png' />
+                            <img src='/images/banks/uae_change_bank.png' />
+                            <img src='/images/banks/al_arabia_exchange.png' />
+                            <img src='/images/banks/western_union.png' />
+                            <img src='/images/banks/visa.png' />
+                            <img src='/images/banks/master_card.png' />
+                            <img src='/images/banks/paypal.png' />
+                        </ul>
+                </div>
                     <div className="footer-social-link">
                         <ul className="list-unstyled">
                             <li><Link to="https://facebook.com/"><FaFacebookF /></Link></li>
                             <li><Link to="https://twitter.com/"><FaTwitter /></Link></li>
-                            <li><Link to="https://www.pinterest.com/"><FaPinterestP /></Link></li>
                             <li><Link to="https://www.linkedin.com/"><FaLinkedin /></Link></li>
-                            <li><Link to="https://www.instagram.com/"><FaInstagram /></Link></li>
-                            <li><Link to="https://vimeo.com/"><FaVimeoV /></Link></li>
-                            <li><Link to="https://dribbble.com/"><FaDribbble /></Link></li>
-                            <li><Link to="https://www.behance.net/"><FaBehance /></Link></li>
                         </ul>
                     </div>
                 </div>

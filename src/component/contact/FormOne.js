@@ -96,7 +96,7 @@ const FormOne = ({submitBtnText = "Get Free Quote"}) => {
     return (
         <form ref={form} onSubmit={sendEmail} className="axil-contact-form">
         <div className="form-group">
-            <label>Rferencing Style</label>
+            <label>Referencing Style</label>
             <select className="form-control" name="order_reference" placeholder="John Smith" required >
               <option selected>Paper Referencing</option>
               {paperOptions.map((paperOption, idx) => (

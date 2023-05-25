@@ -6,10 +6,8 @@ const feature = () => {
     <div className="section section-padding-2 bg-color-dark">
                 <div className="container">
                     <SectionTitle 
-                        subtitle="What We Can Do For You"
-                        title="Services we can help you with"
-                        description="Nulla facilisi. Nullam in magna id dolor 
-                        blandit rutrum eget vulputate augue sed eu imperdiet."
+                        title="Unveiling the hidden perks of our services"
+                        description=""
                         textAlignment="heading-light-left"
                         textColor=""
                     />

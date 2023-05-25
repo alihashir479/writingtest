@@ -15,9 +15,14 @@
     ul {
        display: flex;
        align-items: center; 
-       justify-content: space-between;
+       justify-content: center;
        margin: 0 -5px;
+       img {
+        margin: 0 20px;
+        object-fit: contain;
+       }
        li {
+        margin: 0 20px;
            a {
                 color: var(--color-gray-3);
                 font-size: 30px;

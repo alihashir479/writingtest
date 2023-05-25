@@ -51,7 +51,7 @@
     .content {
         flex: 1;
         .title {
-            a {
+            a , span{
                 color: var(--color-white);
                 &:hover {
                     color: var(--color-primary);

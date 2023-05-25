@@ -34,7 +34,7 @@ const ServicePropOne = ({colSize, serviceStyle, itemShow, marginTop, showMoreBtn
 						</div>
 						<div className="content">
 							<h5 className="title"> 
-								<Link to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
+								<span>{data.title}</span>
 							</h5>
 							<p>{data.description}</p>
 							{showMoreBtn && <Link to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`} className="more-btn">Find out more</Link>}
@@ -43,7 +43,7 @@ const ServicePropOne = ({colSize, serviceStyle, itemShow, marginTop, showMoreBtn
 			 	</div>
 			))}
 			<div className='justify-content-center align-items-center' style={showMoreBtnStyles}>
-			  <Link to="" style={{width: '300px'}} className='axil-btn btn-fill-primary btn-primary'>Show All services</Link>
+			  <a href='http://gulfwrites.ae/services' style={{width: '300px'}} className='axil-btn btn-fill-primary btn-primary'>Show All services</a>
 			</div>
 		</>
     )
