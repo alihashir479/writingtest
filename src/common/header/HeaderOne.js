@@ -42,7 +42,7 @@ const HeaderOne = () => {
                             <div className="header-logo">
                                 <Logo limage="/images/logo-3.png"
                                 dimage="/images/logo.png"
-                                simage="/images/logo-2.svg"
+                                simage="/images/logo-3.png"
                                 />
                             </div>
                             <div className="header-main-nav">
