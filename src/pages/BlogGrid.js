@@ -33,7 +33,6 @@ const BlogGridView = () => {
                        </div>
                     </div>
                 </div>
-                <CtaLayoutOne />
             <FooterOne parentClass="" />
             </main>
         </>

@@ -23,7 +23,7 @@ const DescriptionContent = () => {
         {content.map((item , idx) => (
             <div className="col-lg-6 mt--20" key={idx}>
                 <h4>{item.title}</h4>
-                <span>{item.description}</span>
+                <p>{item.description}</p>
             </div>
         ))}
       </div>

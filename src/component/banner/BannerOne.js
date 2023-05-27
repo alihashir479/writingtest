@@ -21,7 +21,7 @@ const BannerOne = () => {
                 <div className="row align-items-end align-items-xl-start">
                 <div className='col-lg-12 justify-content-center align-items-center mb--20 mt--20 star-title' style={{display: 'flex'}}>
                   <div> {[...new Array(5)].map((item, idx) => (<AiFillStar key={idx} style={{color: 'yellow'}} />))} </div>
-                   <div className='ml--5'> - Awarded as #1 in Academic Writing Service </div>
+                   <p className='ml--5 mb--0'> - Awarded as #1 in Academic Writing Service </p>
                     </div>
                     <div className="col-lg-6">
                         <div className="banner-content">

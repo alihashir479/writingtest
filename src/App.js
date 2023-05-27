@@ -39,7 +39,7 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/blog-details/:id"} element={<BlogDetails />}/>
 
 				{/* Service */}
-				<Route path={process.env.PUBLIC_URL + "/service/"} element={<Service />}/>
+				<Route path={process.env.PUBLIC_URL + "/assignment-help/"} element={<Service />}/>
 
 				{/* Pages  */}
 				<Route path={process.env.PUBLIC_URL + "/about-us"} element={<AboutUs />}/>

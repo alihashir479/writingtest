@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitle from '../../elements/section-title/SectionTitle';
-import TestimonialPropOne from './TestimonialPropOne';
+import TestimonialPropOne from '../../component/testimonial/TestimonialPropOne';
 
 const TestimonialOne = ({data}) => {
     if(!data) {

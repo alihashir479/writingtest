@@ -3,20 +3,23 @@ import FooterOne from '../../common/footer/FooterOne';
 import HeaderOne from '../../common/header/HeaderOne';
 import ColorSwitcher from '../../elements/switcher/ColorSwitcher';
 import SEO from '../../common/SEO';
-import Howitworks from '../../component/works/Howitworks';
+import Howitworks from './Howitworks';
 import ServiceBanner from '../../component/banner/ServiceBanner';
 import FaqOne from '../../component/faq/FaqOne';
 import TestimonialOne from '../../component/testimonial/TestimonialOne';
 import FaqData from '../../data/faq/FaqServiceData.json';
 import DescriptionContent from './DescriptionContent';
 import Feature from '../../component/feature/feature';
-
+import TestimonialData from "../../data/testimonial/TestimonialServiceData.json";
+import { Helmet } from 'react-helmet';
 
 const Service = () => {
 
     return (
         <>
-        <SEO title="Service one" />
+        <Helmet>
+          <title> Assignment Help in Dubai & UAE - Professional Writing Service </title>
+        </Helmet>
         <ColorSwitcher />
         <main className="main-wrapper">
             <ServiceBanner />
@@ -27,7 +30,7 @@ const Service = () => {
             <DescriptionContent />
             <FaqOne data={FaqData} />
             <Feature />
-            <TestimonialOne /> 
+            <TestimonialOne data={TestimonialData} /> 
             <FooterOne parentClass="" />
         </main>
         </>

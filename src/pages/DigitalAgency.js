@@ -10,6 +10,7 @@ import DescriptionContent from '../component/works/DescriptionContent';
 import FaqOne from '../component/faq/FaqOne';
 import FaqData from '../data/faq/FaqData.json';
 import Feature from '../component/feature/feature';
+import TestimonialData from ".././data/testimonial/TestimonialData.json";
 import {Helmet} from "react-helmet";
 
 
@@ -30,7 +31,7 @@ const DigitalAgency = () => {
             <Feature />
             <AboutOne />
             <FaqOne data={FaqData} />
-            <TestimonialOne /> 
+            <TestimonialOne data={TestimonialData} /> 
         <FooterOne parentClass="" />
         </main>
         </>

@@ -1,14 +1,9 @@
 import React from 'react';
-import TestimonialData from "../../data/testimonial/TestimonialData.json";
 
-
-const allData = TestimonialData;
-
-
-const TestimonialItem = ({colSize, itemShow}) => {
+const TestimonialItem = ({colSize, itemShow, data}) => {
     return (
         <>
-            {allData.slice(0, itemShow).map((data, index) => (
+            {data.slice(0, itemShow).map((data, index) => (
                 <div className={`${colSize}`} key={index}>
                     <div className="testimonial-grid">
                         <span className="social-media">
