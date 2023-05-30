@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import ScrollToTop from './component/scrollToTop/ScrollToTop';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,12 +20,26 @@ import Service from './pages/Service/service';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import TawkTo from 'tawkto-react'
 
 // Css Import
 import './assets/scss/app.scss';
 
 
 const App = () => {
+    useEffect(() => {
+		let propertyId = process.env.REACT_APP_TAWKTO_PROPERTY_ID
+		let tawkId = process.env.REACT_APP_TAWKTO_TAWK_ID
+    
+		var tawk = new TawkTo(propertyId, tawkId)
+	
+		tawk.onStatusChange((status) => 
+		{
+			 console.log(status)
+		})
+	
+	}, [])
+
   return (
     <Router>
 		<ScrollToTop>

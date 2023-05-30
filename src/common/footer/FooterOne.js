@@ -56,11 +56,9 @@ const FooterOne = ({parentClass}) => {
                                         <h6 className="widget-title">Services</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
-                                                {getServiceData.slice(0, 6).map((data, index) => (
-                                                    <li key={index}>
-                                                        <Link to={process.env.PUBLIC_URL + `/service-details/${slugify(data.title)}`}>{data.title}</Link>
+                                                    <li>
+                                                        <Link to='/assignment-help'>Assignment help</Link>
                                                     </li>
-                                                ))}
                                             </ul>
                                         </div>
                                     </div>
@@ -70,9 +68,7 @@ const FooterOne = ({parentClass}) => {
                                         <h6 className="widget-title">Resourses</h6>
                                         <div className="footer-menu-link">
                                             <ul className="list-unstyled">
-                                                <li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>Blog</Link></li>
-                                                <li> <Link to={process.env.PUBLIC_URL + "/case-study"}>Case Studies</Link></li>
-                                                <li><Link to={process.env.PUBLIC_URL + "/project-grid-one"}>Portfolio</Link></li>
+                                                <li><Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -84,7 +80,6 @@ const FooterOne = ({parentClass}) => {
                                             <ul className="list-unstyled">
                                                 <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
                                                 <li> <Link to={process.env.PUBLIC_URL + "/privacy-policy"}>Privacy Policy</Link></li>
-                                                <li><Link to={process.env.PUBLIC_URL + "/terms-use"}>Terms of Use</Link></li>
                                             </ul>
                                         </div>
                                     </div>
