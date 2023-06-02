@@ -141,7 +141,7 @@ const FormOne = ({submitBtnText = "Get Free Quote"}) => {
             </select>
         </div>
         <div className="form-group">
-            <button className="axil-btn  btn-fluid" name="submit-btn">Total Amount: {totalAmount}</button>
+            <button className="axil-btn  btn-fluid" name="submit-btn" onClick={(e) => e.preventDefault()}>Total Amount: {totalAmount}</button>
         </div>
         <div className="form-group">
             <button type="submit" className="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">{submitBtnText}</button>

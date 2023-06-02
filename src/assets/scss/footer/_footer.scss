@@ -17,6 +17,10 @@
        align-items: center; 
        justify-content: center;
        margin: 0 -5px;
+       @media screen and (max-width: 767px) {
+        flex-wrap: wrap;
+        gap: 10px;
+       }
        img {
         margin: 0 20px;
         object-fit: contain;

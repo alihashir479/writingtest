@@ -37,7 +37,7 @@ const Howitworks = () => {
         </div>
         <div className="content" style={{paddingLeft: '20px', paddingRight: '20px'}}>
             <h4 className="title">
-                <a href="/project-details/creative-agency">{card.title}</a>
+                {card.title}
             </h4><span className="subtitle">
             <span>{card.content}</span>
             </span></div>
